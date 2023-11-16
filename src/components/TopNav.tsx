@@ -1,5 +1,6 @@
 import { Dispatch, SetStateAction } from "react";
 import TopNavList from "./TopNavList";
+import Heart from "../../public/heart.svg";
 
 interface Props {
   title: string;
@@ -12,7 +13,14 @@ function TopNav({ title, navBarText, setPage }: Props) {
     <>
       <nav className="navbar navbar-light bg-light navbar-expand-sm">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand justify-content-center" href="#">
+            <img
+              src={Heart}
+              width="50"
+              height="50"
+              className="d-inline-block align-left"
+              alt=""
+            />
             {title}
           </a>
           <button

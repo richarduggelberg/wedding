@@ -1,5 +1,11 @@
+import SlideShow from "./SlideShow";
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <div>
+      <SlideShow />
+    </div>
+  );
 };
 
 export default HomePage;
