@@ -2,9 +2,12 @@ import SlideShow from "./SlideShow";
 
 const HomePage = () => {
   return (
-    <div>
-      <SlideShow />
-    </div>
+    <>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <SlideShow />
+      </div>
+      <div style={{ display: "flex", justifyContent: "center" }}>asd</div>
+    </>
   );
 };
 

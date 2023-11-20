@@ -7,20 +7,19 @@ const fadeImages = [
   "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
 ];
 
+const imageCards = fadeImages.map((asd) => (
+  <div className="each-fade card">
+    <img src={asd} />
+  </div>
+));
+
 export default function SlideShow() {
   return (
-    <div className="slide-container">
-      <Fade>
-        <div className="each-fade">
-          <img src={fadeImages[0]} />
-        </div>
-        <div className="each-fade">
-          <img src={fadeImages[1]} />
-        </div>
-        <div className="each-fade">
-          <img src={fadeImages[2]} />
-        </div>
-      </Fade>
+    <div
+      className="slide-container"
+      style={{ margin: "20px 5%", maxWidth: "900px" }}
+    >
+      <Fade arrows={false}>{imageCards}</Fade>
     </div>
   );
 }
