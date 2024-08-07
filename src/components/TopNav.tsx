@@ -13,7 +13,11 @@ function TopNav({ title, navBarText, setPage }: Props) {
     <>
       <nav className="navbar navbar-light bg-light navbar-expand-sm">
         <div className="container-fluid">
-          <a className="navbar-brand justify-content-center" href="#">
+          <a
+            className="navbar-brand justify-content-center"
+            href="#"
+            onClick={() => setPage("home")}
+          >
             <img
               src={Heart}
               width="50"
