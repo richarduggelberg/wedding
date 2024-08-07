@@ -16,6 +16,9 @@ function TopNavList({ setPage }: Props) {
           Hålla tal
         </TopNavListItem>
         <TopNavListItem onClick={() => setPage("kids")}>Barn</TopNavListItem>
+        <TopNavListItem onClick={() => setPage("gifts")}>
+          Presenter
+        </TopNavListItem>
       </ul>
     </>
   );
