@@ -12,8 +12,9 @@ const TimeAndPlacePage = () => {
           backgroundColor: "#fff",
         }}
       >
-        <h1 style={{ textAlign: "center" }}>2025-05-31!</h1>
-        <h4 style={{ textAlign: "center" }}>Hedvig Eleonora Kyrka!</h4>
+        <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
+          2025-05-31!
+        </h1>
         <div
           style={{
             display: "flex",
