@@ -12,9 +12,10 @@ function TopNavList({ setPage }: Props) {
           Tid & Plats
         </TopNavListItem>
         <TopNavListItem onClick={() => setPage("rsvp")}>OSA</TopNavListItem>
-        <TopNavListItem onClick={() => setPage("rsvp")}>
+        <TopNavListItem onClick={() => setPage("speech")}>
           Hålla tal
         </TopNavListItem>
+        <TopNavListItem onClick={() => setPage("kids")}>Barn</TopNavListItem>
       </ul>
     </>
   );

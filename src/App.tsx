@@ -3,6 +3,8 @@ import TopNav from "./components/TopNav";
 import HomePage from "./components/HomePage";
 import TimeAndPlacePage from "./components/TimeAndPlacePage";
 import RsvpPage from "./components/RsvpPage";
+import SpeechPage from "./components/SpeechPage";
+import KidsPage from "./components/KidsPage";
 
 const App = () => {
   const title = "Emma & Richard";
@@ -16,6 +18,8 @@ const App = () => {
       {currentPage === "home" && <HomePage />}
       {currentPage === "about" && <TimeAndPlacePage />}
       {currentPage === "rsvp" && <RsvpPage />}
+      {currentPage === "speech" && <SpeechPage />}
+      {currentPage === "kids" && <KidsPage />}
     </>
   );
 };

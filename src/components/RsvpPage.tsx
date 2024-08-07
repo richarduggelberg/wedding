@@ -1,5 +1,3 @@
-import React from "react";
-
 const RsvpPage = () => {
   return (
     <div
@@ -71,7 +69,6 @@ const RsvpPage = () => {
           <textarea
             id="message"
             name="message"
-            rows="4"
             style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
           ></textarea>
         </div>
