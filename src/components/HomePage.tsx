@@ -1,4 +1,3 @@
-import React from "react";
 import AsdImage from "../../public/asd.jpeg"; // Adjust the path as needed
 
 const HomePage = () => {

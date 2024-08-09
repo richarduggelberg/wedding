@@ -1,5 +1,3 @@
-import React from "react";
-
 const TimeAndPlacePage = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center", padding: "20px" }}>
