@@ -1,24 +1,15 @@
-import { ReactNode } from "react";
-
 interface Props {
-  children: ReactNode;
   onClick: () => void;
+  children: React.ReactNode;
 }
 
-function TopNavListItem({ children, onClick }: Props) {
+function TopNavListItem({ onClick, children }: Props) {
   return (
-    <>
-      <li className="nav-item">
-        <a
-          onClick={onClick}
-          className="nav-link active"
-          aria-current="page"
-          href="#"
-        >
-          {children}
-        </a>
-      </li>
-    </>
+    <li className="nav-item">
+      <a className="nav-link" href="#" onClick={onClick}>
+        {children}
+      </a>
+    </li>
   );
 }
 

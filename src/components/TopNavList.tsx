@@ -2,21 +2,51 @@ import TopNavListItem from "./TopNavListItem";
 
 interface Props {
   setPage: (type: string) => void;
+  onNavItemClick: () => void; // Add this prop
 }
 
-function TopNavList({ setPage }: Props) {
+function TopNavList({ setPage, onNavItemClick }: Props) {
   return (
     <>
       <ul className="navbar-nav me-auto mb-2 mb-lg-0 m-50 d-flex justify-content-around">
-        <TopNavListItem onClick={() => setPage("about")}>
+        <TopNavListItem
+          onClick={() => {
+            setPage("about");
+            onNavItemClick();
+          }}
+        >
           Tid & Plats
         </TopNavListItem>
-        <TopNavListItem onClick={() => setPage("rsvp")}>OSA</TopNavListItem>
-        <TopNavListItem onClick={() => setPage("speech")}>
+        <TopNavListItem
+          onClick={() => {
+            setPage("rsvp");
+            onNavItemClick();
+          }}
+        >
+          OSA
+        </TopNavListItem>
+        <TopNavListItem
+          onClick={() => {
+            setPage("speech");
+            onNavItemClick();
+          }}
+        >
           Hålla tal
         </TopNavListItem>
-        <TopNavListItem onClick={() => setPage("kids")}>Barn</TopNavListItem>
-        <TopNavListItem onClick={() => setPage("gifts")}>
+        <TopNavListItem
+          onClick={() => {
+            setPage("kids");
+            onNavItemClick();
+          }}
+        >
+          Barn
+        </TopNavListItem>
+        <TopNavListItem
+          onClick={() => {
+            setPage("gifts");
+            onNavItemClick();
+          }}
+        >
           Presenter
         </TopNavListItem>
       </ul>

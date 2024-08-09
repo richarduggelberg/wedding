@@ -9,6 +9,14 @@ interface Props {
 }
 
 function TopNav({ title, navBarText, setPage }: Props) {
+  const handleNavItemClick = () => {
+    // Find the button with id 'navbar-toggler' and trigger a click event
+    const toggleButton = document.getElementById("navbar-toggler");
+    if (toggleButton) {
+      toggleButton.click();
+    }
+  };
+
   return (
     <>
       <nav className="navbar navbar-light bg-light navbar-expand-sm">
@@ -28,6 +36,7 @@ function TopNav({ title, navBarText, setPage }: Props) {
             {title}
           </a>
           <button
+            id="navbar-toggler" // Add this ID
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -39,7 +48,7 @@ function TopNav({ title, navBarText, setPage }: Props) {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarText">
-            <TopNavList setPage={setPage} />
+            <TopNavList setPage={setPage} onNavItemClick={handleNavItemClick} />
             <span className="navbar-text">{navBarText}</span>
           </div>
         </div>
