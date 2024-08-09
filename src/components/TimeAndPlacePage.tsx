@@ -1,3 +1,5 @@
+import React from "react";
+
 const TimeAndPlacePage = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center", padding: "20px" }}>
@@ -13,29 +15,22 @@ const TimeAndPlacePage = () => {
         <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
           2025-05-31!
         </h1>
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            gap: "20px",
-            marginBottom: "20px",
-          }}
-        >
+        <div className="responsive-container">
           <img
             src="https://hedvigeleonora.se/wp-content/uploads/2018/02/Hedvig_ext_web1-1200x800.jpg"
             alt="Hedvig Eleonora Church"
-            style={{ width: "300px", height: "auto" }}
+            className="responsive-image"
           />
           <div>
             <h2>Vigsel</h2>
             <p>Vigsel sker i Hedvig Eleonora Kyrka klockan 15:00.</p>
           </div>
         </div>
-        <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+        <div className="responsive-container">
           <img
             src="https://sallskapet.se/wp-content/uploads/2019/08/1arsenalsgatan.jpg"
             alt="Sallskapet"
-            style={{ width: "300px", height: "auto" }}
+            className="responsive-image"
           />
           <div>
             <h2>Fest</h2>
@@ -46,6 +41,32 @@ const TimeAndPlacePage = () => {
           </div>
         </div>
       </div>
+      <style>
+        {`
+          .responsive-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+          }
+
+          .responsive-image {
+            width: 300px; /* Default image width on larger screens */
+            height: auto;
+          }
+
+          @media (max-width: 768px) {
+            .responsive-container {
+              flex-direction: column; /* Stack items vertically on smaller screens */
+            }
+
+            .responsive-image {
+              width: 100%; /* Make the image stretch to full width */
+              height: auto; /* Keep the aspect ratio */
+            }
+          }
+        `}
+      </style>
     </div>
   );
 };
