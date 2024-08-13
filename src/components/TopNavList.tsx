@@ -41,14 +41,6 @@ function TopNavList({ setPage, onNavItemClick }: Props) {
         >
           Övrig information
         </TopNavListItem>
-        <TopNavListItem
-          onClick={() => {
-            setPage("gifts");
-            onNavItemClick();
-          }}
-        >
-          Presenter
-        </TopNavListItem>
       </ul>
     </>
   );

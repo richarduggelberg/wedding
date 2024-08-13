@@ -10,9 +10,15 @@ interface Props {
 
 function TopNav({ title, navBarText, setPage }: Props) {
   const handleNavItemClick = () => {
-    // Find the button with id 'navbar-toggler' and trigger a click event
     const toggleButton = document.getElementById("navbar-toggler");
-    if (toggleButton) {
+    const navbarCollapse = document.getElementById("navbarText");
+
+    // Check if the navbar is currently expanded (i.e., open)
+    if (
+      toggleButton &&
+      navbarCollapse &&
+      navbarCollapse.classList.contains("show")
+    ) {
       toggleButton.click();
     }
   };
@@ -24,7 +30,10 @@ function TopNav({ title, navBarText, setPage }: Props) {
           <a
             className="navbar-brand justify-content-center"
             href="#"
-            onClick={() => setPage("home")}
+            onClick={() => {
+              setPage("home");
+              handleNavItemClick(); // Trigger the navbar collapse when the title is clicked, but only if it's open
+            }}
           >
             <img
               src={Heart}
@@ -36,7 +45,7 @@ function TopNav({ title, navBarText, setPage }: Props) {
             {title}
           </a>
           <button
-            id="navbar-toggler" // Add this ID
+            id="navbar-toggler"
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
