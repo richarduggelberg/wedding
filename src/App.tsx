@@ -4,8 +4,7 @@ import HomePage from "./components/HomePage";
 import TimeAndPlacePage from "./components/TimeAndPlacePage";
 import RsvpPage from "./components/RsvpPage";
 import SpeechPage from "./components/SpeechPage";
-import KidsPage from "./components/KidsPage";
-import GiftsPage from "./components/GiftsPage";
+import MiscPage from "./components/MiscPage";
 
 const App = () => {
   const title = "Emma & Richard";
@@ -20,8 +19,7 @@ const App = () => {
       {currentPage === "about" && <TimeAndPlacePage />}
       {currentPage === "rsvp" && <RsvpPage />}
       {currentPage === "speech" && <SpeechPage />}
-      {currentPage === "kids" && <KidsPage />}
-      {currentPage === "gifts" && <GiftsPage />}
+      {currentPage === "misc" && <MiscPage />}
     </>
   );
 };

@@ -35,11 +35,11 @@ function TopNavList({ setPage, onNavItemClick }: Props) {
         </TopNavListItem>
         <TopNavListItem
           onClick={() => {
-            setPage("kids");
+            setPage("misc");
             onNavItemClick();
           }}
         >
-          Barn
+          Övrig information
         </TopNavListItem>
         <TopNavListItem
           onClick={() => {
