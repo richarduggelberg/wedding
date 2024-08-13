@@ -59,6 +59,43 @@ const RsvpPage = () => {
             <option value="no">Nej</option>
           </select>
         </div>
+
+        {/* Section for allergies */}
+        <div style={{ marginBottom: "15px" }}>
+          <label
+            htmlFor="allergies"
+            style={{ display: "block", marginBottom: "5px" }}
+          >
+            Allergier eller specialkost:
+          </label>
+          <textarea
+            id="allergies"
+            name="allergies"
+            style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
+            placeholder="Ange om du har några allergier eller speciella kostbehov."
+          ></textarea>
+        </div>
+
+        {/* Section for drink preferences */}
+        <div style={{ marginBottom: "15px" }}>
+          <label
+            htmlFor="drinks"
+            style={{ display: "block", marginBottom: "5px" }}
+          >
+            Dryckesval till middagen:
+          </label>
+          <select
+            id="drinks"
+            name="drinks"
+            style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
+          >
+            <option value="wine">Vin</option>
+            <option value="beer">Öl</option>
+            <option value="nonAlcoholic">Alkoholfritt</option>
+            <option value="noPreference">Ingen preferens</option>
+          </select>
+        </div>
+
         <div style={{ marginBottom: "15px" }}>
           <label
             htmlFor="message"
