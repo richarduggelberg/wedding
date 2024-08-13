@@ -5,6 +5,7 @@ import TimeAndPlacePage from "./components/TimeAndPlacePage";
 import RsvpPage from "./components/RsvpPage";
 import SpeechPage from "./components/SpeechPage";
 import MiscPage from "./components/MiscPage";
+import MarathonPage from "./components/MarathonPage";
 
 const App = () => {
   const title = "Emma & Richard";
@@ -20,6 +21,7 @@ const App = () => {
       {currentPage === "rsvp" && <RsvpPage />}
       {currentPage === "speech" && <SpeechPage />}
       {currentPage === "misc" && <MiscPage />}
+      {currentPage === "marathon" && <MarathonPage />}
     </>
   );
 };

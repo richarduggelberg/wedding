@@ -48,15 +48,15 @@ const RsvpPage = () => {
             htmlFor="attendance"
             style={{ display: "block", marginBottom: "5px" }}
           >
-            Kommer du att delta?
+            Kan du komma?
           </label>
           <select
             id="attendance"
             name="attendance"
             style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
           >
-            <option value="yes">Ja</option>
-            <option value="no">Nej</option>
+            <option value="yes">Ja!</option>
+            <option value="no">Tyvärr inte</option>
           </select>
         </div>
 
@@ -89,10 +89,8 @@ const RsvpPage = () => {
             name="drinks"
             style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
           >
-            <option value="wine">Vin</option>
-            <option value="beer">Öl</option>
-            <option value="nonAlcoholic">Alkoholfritt</option>
-            <option value="noPreference">Ingen preferens</option>
+            <option value="wine">Jag gärna ha vinpaket!</option>
+            <option value="nonAlcoholic">Alkoholfritt, tack!</option>
           </select>
         </div>
 

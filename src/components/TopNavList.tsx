@@ -35,6 +35,14 @@ function TopNavList({ setPage, onNavItemClick }: Props) {
         </TopNavListItem>
         <TopNavListItem
           onClick={() => {
+            setPage("marathon");
+            onNavItemClick();
+          }}
+        >
+          Stockholm Maraton
+        </TopNavListItem>
+        <TopNavListItem
+          onClick={() => {
             setPage("misc");
             onNavItemClick();
           }}

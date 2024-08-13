@@ -29,15 +29,10 @@ const MiscPage = () => {
       />
 
       {/* Section for information about gifts */}
-      <h1 style={{ textAlign: "center" }}>Gåvor</h1>
+      <h1 style={{ textAlign: "center" }}>Presenter</h1>
       <p>
-        Den största gåvan för oss är att ni vill komma och fira vår speciella
-        dag med oss. Er närvaro betyder allt för oss och vi ser verkligen fram
-        emot att dela denna dag med er.
-      </p>
-      <p>
-        Om ni ändå vill ge oss en gåva, skulle vi bli väldigt glada för ett
-        bidrag till vår smekmånad.
+        Den största gåvan är att ni vill komma och fira med oss. Om ni vill ge
+        en bröllopspresent så önskar vi oss ett bidrag till vår bröllopsresa.
       </p>
 
       {/* Divider or space between sections */}
@@ -50,15 +45,29 @@ const MiscPage = () => {
       />
 
       {/* Section for information about kids */}
-      <h1 style={{ textAlign: "center" }}>Information om barn</h1>
+      <h1 style={{ textAlign: "center" }}>Barn</h1>
       <p>
-        Vi älskar era barn, men för att kunna fira denna speciella dag på bästa
-        sätt har vi valt att ha ett bröllop utan barn. Vi hoppas att ni förstår
-        och att ni kan njuta av en kväll utan barn.
+        Vi gillar barn i allmänhet och era barn i synnerhet men den här dagen
+        får de stanna hemma.
       </p>
+      <p>Självklart är ammande spädbarn välkomna.</p>
+
+      {/* Divider or space between sections */}
+      <hr
+        style={{
+          margin: "40px 0",
+          border: "none",
+          borderTop: "1px solid #ddd",
+        }}
+      />
+
+      {/* Section for accommodation in Stockholm */}
+      <h1 style={{ textAlign: "center" }}>Boende i Stockholm</h1>
       <p>
-        Självklart är ammande mammor mer än välkomna. Vi ser fram emot att fira
-        med er!
+        Om ni planerar att resa till Stockholm för vårt bröllop, rekommenderar
+        vi att ni bokar ert boende i god tid. Det finns många fina hotell i
+        området, och att boka i förväg hjälper er att hitta det som passar bäst
+        för er.
       </p>
     </div>
   );
