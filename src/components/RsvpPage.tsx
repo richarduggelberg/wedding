@@ -1,4 +1,27 @@
+import emailjs from "emailjs-com";
+
 const RsvpPage = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_kdq8bam", // Your service ID
+        "template_hl77gjt", // Your template ID
+        e.target as HTMLFormElement, // Cast target to HTMLFormElement
+        "r_BWT__crNnsUHER4" // Your user ID
+      )
+      .then(
+        (result) => {
+          alert("RSVP skickad! Tack för ditt svar.");
+        },
+        (error) => {
+          console.error("Error:", error);
+          alert("Något gick fel. Försök igen.");
+        }
+      );
+  };
+
   return (
     <div
       style={{
@@ -19,7 +42,7 @@ const RsvpPage = () => {
         <a href="mailto:dinmamma@gmail.com"> dinmamma@gmail.com</a> med ungefär
         samma information som formuläret frågar om.
       </p>
-      <form>
+      <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: "15px" }}>
           <label
             htmlFor="name"
