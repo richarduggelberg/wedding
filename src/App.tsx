@@ -4,12 +4,14 @@ import HomePage from "./components/HomePage";
 import TimeAndPlacePage from "./components/TimeAndPlacePage";
 import RsvpPage from "./components/RsvpPage";
 import SpeechPage from "./components/SpeechPage";
-import MiscPage from "./components/MiscPage";
+import KidsPage from "./components/KidsPage";
 import MarathonPage from "./components/MarathonPage";
+import DressCodePage from "./components/DressCodePage";
+import GiftsPage from "./components/GiftsPage";
 
 const App = () => {
   const title = "Emma & Richard";
-  const navBarText = "2025-05-31";
+  const navBarText = "";
 
   const [currentPage, setCurrentPage] = useState<string>("home");
 
@@ -20,8 +22,10 @@ const App = () => {
       {currentPage === "about" && <TimeAndPlacePage />}
       {currentPage === "rsvp" && <RsvpPage />}
       {currentPage === "speech" && <SpeechPage />}
-      {currentPage === "misc" && <MiscPage />}
+      {currentPage === "dresscode" && <DressCodePage />}
+      {currentPage === "kids" && <KidsPage />}
       {currentPage === "marathon" && <MarathonPage />}
+      {currentPage === "gifts" && <GiftsPage />}
     </>
   );
 };

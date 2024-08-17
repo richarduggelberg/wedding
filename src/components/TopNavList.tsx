@@ -35,6 +35,22 @@ function TopNavList({ setPage, onNavItemClick }: Props) {
         </TopNavListItem>
         <TopNavListItem
           onClick={() => {
+            setPage("dresscode");
+            onNavItemClick();
+          }}
+        >
+          Klädkod
+        </TopNavListItem>
+        <TopNavListItem
+          onClick={() => {
+            setPage("gifts");
+            onNavItemClick();
+          }}
+        >
+          Presenter
+        </TopNavListItem>
+        <TopNavListItem
+          onClick={() => {
             setPage("marathon");
             onNavItemClick();
           }}
@@ -43,11 +59,11 @@ function TopNavList({ setPage, onNavItemClick }: Props) {
         </TopNavListItem>
         <TopNavListItem
           onClick={() => {
-            setPage("misc");
+            setPage("kids");
             onNavItemClick();
           }}
         >
-          Övrig information
+          Barn & Boende
         </TopNavListItem>
       </ul>
     </>
