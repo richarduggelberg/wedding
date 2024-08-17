@@ -4,11 +4,22 @@ const RsvpPage = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    const form = e.target as HTMLFormElement;
+    const name = form.name.value.trim();
+    const email = form.email.value.trim();
+
+    // Check if required fields are empty
+    if (!name || !email) {
+      alert("Vänligen fyll i både namn och e-post.");
+      return;
+    }
+
+    // If validation passes, send the form
     emailjs
       .sendForm(
         "service_kdq8bam", // Your service ID
         "template_hl77gjt", // Your template ID
-        e.target as HTMLFormElement, // Cast target to HTMLFormElement
+        form,
         "r_BWT__crNnsUHER4" // Your user ID
       )
       .then(
