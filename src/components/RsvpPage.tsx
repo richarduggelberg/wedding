@@ -13,7 +13,7 @@ const RsvpPage = () => {
       )
       .then(
         (result) => {
-          alert("RSVP skickad! Tack för ditt svar.");
+          alert("Tack för ditt svar!");
         },
         (error) => {
           console.error("Error:", error);
