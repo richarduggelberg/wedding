@@ -12,7 +12,7 @@ const RsvpPage = () => {
         "r_BWT__crNnsUHER4" // Your user ID
       )
       .then(
-        (result) => {
+        () => {
           alert("Tack för ditt svar!");
         },
         (error) => {
