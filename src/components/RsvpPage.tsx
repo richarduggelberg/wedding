@@ -1,12 +1,18 @@
 import emailjs from "emailjs-com";
+import React from "react";
 
 const RsvpPage = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    const form = e.target as HTMLFormElement;
-    const name = form.name.value.trim();
-    const email = form.email.value.trim();
+    const form = e.currentTarget as HTMLFormElement;
+
+    const nameInput = form.elements.namedItem("name") as HTMLInputElement;
+    const emailInput = form.elements.namedItem("email") as HTMLInputElement;
+
+    // Get the values and trim them
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
 
     // Check if required fields are empty
     if (!name || !email) {
