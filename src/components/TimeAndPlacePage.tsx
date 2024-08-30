@@ -26,18 +26,6 @@ const TimeAndPlacePage = () => {
               Vigsel
             </h2>
             <p>
-              <span
-                style={{
-                  fontSize: "24px",
-                  fontWeight: "bold",
-                  marginRight: "8px",
-                }}
-              >
-                Ⓣ
-              </span>
-              Östermalmstorg
-            </p>
-            <p>
               Vigsel sker i Hedvig Eleonora kyrka klockan 15.00. Vänligen var på
               plats ca kl. 14.45. Tänk på att det kan ta lite längre tid än
               vanligt att ta sig till kyrkan på grund av Stockholm Marathon. Vi
@@ -83,21 +71,9 @@ const TimeAndPlacePage = () => {
             <h2 style={{ display: "flex", justifyContent: "center" }}>
               Middag och fest
             </h2>
-            {/* <p>
-              <span
-                style={{
-                  fontSize: "24px",
-                  fontWeight: "bold",
-                  marginRight: "8px",
-                }}
-              >
-                Ⓣ
-              </span>
-              Kungsträdgården
-            </p> */}
             <p>
               Efter vigseln är det dags för middag och fest! Det blir i
-              Sällskapets lokaler på Arsenalsgatan 7. Festen pågår till 02:00.
+              Sällskapets lokaler på Arsenalsgatan 7. Festen pågår till 02.00.
             </p>
             <p>
               <strong>Viktigt angående festlokalen: </strong>Bilder som tas i

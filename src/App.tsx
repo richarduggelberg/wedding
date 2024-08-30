@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <>
-      <div style={{ backgroundColor: "#e3efdf" }}>
+      <div>
         <TopNav
           title={title}
           navBarText={navBarText}

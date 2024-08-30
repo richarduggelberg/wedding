@@ -34,12 +34,17 @@ const HomePage = () => {
             }} // Image should fill the container while maintaining aspect ratio
           />
         </div>
-        <h4 style={{ marginBottom: "10px", marginTop: "30px" }}>
-          Vi ska gifta oss i vår och ser så mycket fram emot att fira med er!
-        </h4>
-        <p style={{ fontSize: "16px", marginBottom: "30px", color: "#555" }}>
-          hej
-        </p>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <p style={{ fontSize: "20px", margin: "30px", color: "#555" }}>
+            Vi ska gifta oss i vår och ser så mycket fram emot att fira med er!
+          </p>
+        </div>
       </div>
     </>
   );

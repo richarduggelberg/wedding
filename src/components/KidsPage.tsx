@@ -11,8 +11,10 @@ const KidsPage = () => {
     >
       {/* Section for information about kids */}
       <h1 style={{ textAlign: "center" }}>Barn</h1>
-      <p>Barn är underbara, men den här dagen får de stanna hemma.</p>
-      <p>Självklart är ammande spädbarn välkomna.</p>
+      <p>
+        Barn är underbara, men den här dagen får de stanna hemma. Självklart är
+        ammande spädbarn välkomna.
+      </p>
 
       {/* Divider or space between sections */}
       <hr

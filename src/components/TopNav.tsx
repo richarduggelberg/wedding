@@ -26,7 +26,14 @@ function TopNav({ title, navBarText, setPage }: Props) {
     <>
       <nav className="navbar navbar-light bg-light navbar-expand-sm">
         <div className="container-fluid">
-          <div>
+          <div
+            style={{
+              lineHeight: "17px",
+              border: "1px solid #d4af37",
+              padding: "2px",
+              color: "#d4af37",
+            }}
+          >
             <div>結</div>
             <div>婚</div>
           </div>
@@ -43,6 +50,11 @@ function TopNav({ title, navBarText, setPage }: Props) {
             {title}
           </a>
           <button
+            style={{
+              color: "#d4af37",
+              borderRadius: "0px",
+              border: "none",
+            }}
             id="navbar-toggler"
             className="navbar-toggler"
             type="button"
