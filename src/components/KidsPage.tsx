@@ -11,10 +11,7 @@ const KidsPage = () => {
     >
       {/* Section for information about kids */}
       <h1 style={{ textAlign: "center" }}>Barn</h1>
-      <p>
-        Vi gillar barn i allmänhet och era barn i synnerhet men den här dagen
-        får de stanna hemma.
-      </p>
+      <p>Barn är underbara, men den här dagen får de stanna hemma.</p>
       <p>Självklart är ammande spädbarn välkomna.</p>
 
       {/* Divider or space between sections */}

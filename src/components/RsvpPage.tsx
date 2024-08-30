@@ -56,8 +56,8 @@ const RsvpPage = () => {
       </p>
       <p>
         Om formuläret inte fungerar, vänligen skicka ett mejl till{" "}
-        <a href="mailto:dinmamma@gmail.com"> dinmamma@gmail.com</a> med ungefär
-        samma information som formuläret frågar om.
+        <a href="mailto:richardochemma@gmail.com"> richardochemma@gmail.com</a>{" "}
+        med ungefär samma information som formuläret frågar om.
       </p>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: "15px" }}>
@@ -105,28 +105,6 @@ const RsvpPage = () => {
           </select>
         </div>
 
-        {/* New section for answering for others */}
-        <div style={{ marginBottom: "15px" }}>
-          <label
-            htmlFor="respondingForOthers"
-            style={{ display: "block", marginBottom: "5px" }}
-          >
-            Svarar du för några andra?
-          </label>
-          <select
-            id="respondingForOthers"
-            name="respondingForOthers"
-            style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
-          >
-            <option value="nej">Nej</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-          </select>
-        </div>
-
         {/* Section for allergies */}
         <div style={{ marginBottom: "15px" }}>
           <label
@@ -161,6 +139,20 @@ const RsvpPage = () => {
           </select>
         </div>
 
+        <div style={{ marginBottom: "15px" }}>
+          <label
+            htmlFor="message"
+            style={{ display: "block", marginBottom: "5px" }}
+          >
+            Om den här låten spelas på dansgolvet så kommer jag att dansa
+            (valfritt):
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
+          ></textarea>
+        </div>
         <div style={{ marginBottom: "15px" }}>
           <label
             htmlFor="message"

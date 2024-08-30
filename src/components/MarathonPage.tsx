@@ -10,7 +10,7 @@ const MarathonPage = () => {
       }}
     >
       <h1 style={{ textAlign: "center" }}>Nej</h1>
-      <p>Vi ska inte springa Stockholm Maraton och det ska inte ni heller.</p>
+      <p>Vi ska inte springa Stockholm Marathon och det ska inte ni heller.</p>
       <p>
         Däremot ska många andra göra det samma dag som vårt bröllop. Vi
         rekommenderar därför att ta tunnelbanan till Östermalmstorg för vigseln

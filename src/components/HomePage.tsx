@@ -10,9 +10,11 @@ const HomePage = () => {
           alignItems: "center",
         }}
       >
-        <h1 style={{ marginBottom: "10px" }}>Vi gifter oss!</h1>
-        <p style={{ fontSize: "16px", marginBottom: "20px", color: "#555" }}>
-          31 Maj 2025, kl. 15:00
+        <h1 style={{ marginBottom: "10px", marginTop: "30px" }}>
+          Vi gifter oss!
+        </h1>
+        <p style={{ fontSize: "16px", marginBottom: "30px", color: "#555" }}>
+          Lördag 31 Maj 2025
         </p>
         <div
           style={{
@@ -32,6 +34,12 @@ const HomePage = () => {
             }} // Image should fill the container while maintaining aspect ratio
           />
         </div>
+        <h4 style={{ marginBottom: "10px", marginTop: "30px" }}>
+          Vi ska gifta oss i vår och ser så mycket fram emot att fira med er!
+        </h4>
+        <p style={{ fontSize: "16px", marginBottom: "30px", color: "#555" }}>
+          hej
+        </p>
       </div>
     </>
   );

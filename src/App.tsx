@@ -17,15 +17,21 @@ const App = () => {
 
   return (
     <>
-      <TopNav title={title} navBarText={navBarText} setPage={setCurrentPage} />
-      {currentPage === "home" && <HomePage />}
-      {currentPage === "about" && <TimeAndPlacePage />}
-      {currentPage === "rsvp" && <RsvpPage />}
-      {currentPage === "speech" && <SpeechPage />}
-      {currentPage === "dresscode" && <DressCodePage />}
-      {currentPage === "kids" && <KidsPage />}
-      {currentPage === "marathon" && <MarathonPage />}
-      {currentPage === "gifts" && <GiftsPage />}
+      <div style={{ backgroundColor: "#e3efdf" }}>
+        <TopNav
+          title={title}
+          navBarText={navBarText}
+          setPage={setCurrentPage}
+        />
+        {currentPage === "home" && <HomePage />}
+        {currentPage === "about" && <TimeAndPlacePage />}
+        {currentPage === "rsvp" && <RsvpPage />}
+        {currentPage === "speech" && <SpeechPage />}
+        {currentPage === "dresscode" && <DressCodePage />}
+        {currentPage === "kids" && <KidsPage />}
+        {currentPage === "marathon" && <MarathonPage />}
+        {currentPage === "gifts" && <GiftsPage />}
+      </div>
     </>
   );
 };

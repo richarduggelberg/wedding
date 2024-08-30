@@ -1,6 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
 import TopNavList from "./TopNavList";
-import Heart from "../../public/heart.svg";
 
 interface Props {
   title: string;
@@ -27,7 +26,13 @@ function TopNav({ title, navBarText, setPage }: Props) {
     <>
       <nav className="navbar navbar-light bg-light navbar-expand-sm">
         <div className="container-fluid">
+          <div>
+            <div>結</div>
+            <div>婚</div>
+          </div>
+
           <a
+            style={{ marginLeft: "15px" }}
             className="navbar-brand justify-content-center"
             href="#"
             onClick={() => {
@@ -35,13 +40,6 @@ function TopNav({ title, navBarText, setPage }: Props) {
               handleNavItemClick(); // Trigger the navbar collapse when the title is clicked, but only if it's open
             }}
           >
-            <img
-              src={Heart}
-              width="50"
-              height="50"
-              className="d-inline-block align-left"
-              alt=""
-            />
             {title}
           </a>
           <button

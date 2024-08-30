@@ -10,12 +10,11 @@ const DressCodePage = () => {
       }}
     >
       <h1 style={{ textAlign: "center" }}>Klädkod</h1>
-      <p>Mörkare kostym eller åtminstone knälång klänning.</p>
       <p>
-        Observera att endast bruden bär vitt. Överträdelser kommer att
-        polisanmälas även om påföljande eventuell utredning antagligen kommer
-        läggas ner.
+        Mörk kostym (somriga färger tillåtna) och långklänning eller minst
+        knälång klänning.
       </p>
+      <p>Tänk på att det endast är bruden som bär vitt.</p>
     </div>
   );
 };

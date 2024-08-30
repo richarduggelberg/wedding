@@ -22,7 +22,9 @@ const TimeAndPlacePage = () => {
             className="responsive-image"
           />
           <div>
-            <h2>Vigsel</h2>
+            <h2 style={{ display: "flex", justifyContent: "center" }}>
+              Vigsel
+            </h2>
             <p>
               <span
                 style={{
@@ -36,10 +38,10 @@ const TimeAndPlacePage = () => {
               Östermalmstorg
             </p>
             <p>
-              Vigsel sker i Hedvig Eleonora Kyrka klockan 15:00. Därmed kan det
-              vara bra att komma dit lite tidigare, speciellt med tanke på att
-              trafiken kan vara knasig i och med Stockholm Maraton. Kyrkan är
-              öppen innan och vi rekommenderar att komma dit ungefär 14:45.
+              Vigsel sker i Hedvig Eleonora kyrka klockan 15.00. Vänligen var på
+              plats ca kl. 14.45. Tänk på att det kan ta lite längre tid än
+              vanligt att ta sig till kyrkan på grund av Stockholm Marathon. Vi
+              rekommenderar därmed att åka tunnelbana till Östermalmstorg.
             </p>
             <p>
               Båda i brudparet tycker om samtliga gäster och därmed gäller fri
@@ -56,14 +58,16 @@ const TimeAndPlacePage = () => {
             className="responsive-image"
           />
           <div>
-            <h2>Vandring</h2>
+            <h2 style={{ display: "flex", justifyContent: "center" }}>
+              Promenad
+            </h2>
             <p>
-              Efter vigseln tar vi en kort promenad från Hedvig Eleonora Kyrka
-              till Sällskapets lokaler. Lättare dryck och underhållning kommer
-              serveras för att mjukstarta festen.
+              Efter vigseln tar vi en kortare promenad från Hedvig Eleonora
+              kyrka till Sällskapets lokaler.
             </p>
             <p>
-              Denna promenad kommer inte korsa löparbanan för Stockholm Maraton.
+              Denna promenad kommer inte korsa löparbanan för Stockholm
+              Marathon.
             </p>
           </div>
         </div>
@@ -76,8 +80,10 @@ const TimeAndPlacePage = () => {
             className="responsive-image"
           />
           <div>
-            <h2>Fest</h2>
-            <p>
+            <h2 style={{ display: "flex", justifyContent: "center" }}>
+              Middag och fest
+            </h2>
+            {/* <p>
               <span
                 style={{
                   fontSize: "24px",
@@ -88,28 +94,14 @@ const TimeAndPlacePage = () => {
                 Ⓣ
               </span>
               Kungsträdgården
+            </p> */}
+            <p>
+              Efter vigseln är det dags för middag och fest! Det blir i
+              Sällskapets lokaler på Arsenalsgatan 7. Festen pågår till 02:00.
             </p>
             <p>
-              Efter vigseln är det dags för fest! Det blir i Sällskapets lokaler
-              på Arsenalsgatan 7.
-            </p>
-            <p>
-              Festen pågår mellan 17:00 och 02:00. Ni behöver inte stanna till
-              stängning bara för att brudparet gör det.
-            </p>
-            <p
-              style={{
-                backgroundColor: "#ffe6e6",
-                color: "#d8000c",
-                padding: "15px",
-                border: "1px solid #d8000c",
-                borderRadius: "4px",
-                fontWeight: "bold",
-                textAlign: "center",
-              }}
-            >
-              VIKTIGT angående festlokalen: Bilder som tas i lokalen får inte
-              läggas ut offentligt på sociala medier.
+              <strong>Viktigt angående festlokalen: </strong>Bilder som tas i
+              lokalen får inte läggas ut offentligt på sociala medier.
             </p>
           </div>
         </div>

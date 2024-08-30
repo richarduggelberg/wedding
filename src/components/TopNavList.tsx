@@ -15,7 +15,7 @@ function TopNavList({ setPage, onNavItemClick }: Props) {
             onNavItemClick();
           }}
         >
-          Tid & Plats
+          Tid & plats
         </TopNavListItem>
         <TopNavListItem
           onClick={() => {
@@ -55,7 +55,7 @@ function TopNavList({ setPage, onNavItemClick }: Props) {
             onNavItemClick();
           }}
         >
-          Stockholm Maraton
+          Stockholm Marathon
         </TopNavListItem>
         <TopNavListItem
           onClick={() => {
@@ -63,7 +63,7 @@ function TopNavList({ setPage, onNavItemClick }: Props) {
             onNavItemClick();
           }}
         >
-          Barn & Boende
+          Barn & boende
         </TopNavListItem>
       </ul>
     </>
