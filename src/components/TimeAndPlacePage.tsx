@@ -17,7 +17,7 @@ const TimeAndPlacePage = () => {
         {/* Section for the Church */}
         <div className="responsive-container">
           <img
-            src="https://hedvigeleonora.se/wp-content/uploads/2018/02/Hedvig_ext_web1-1200x800.jpg"
+            src="kyrka.jpg"
             alt="Hedvig Eleonora Church"
             className="responsive-image"
           />
@@ -63,7 +63,7 @@ const TimeAndPlacePage = () => {
         {/* Section for the Party Venue */}
         <div className="responsive-container">
           <img
-            src="https://sallskapet.se/wp-content/uploads/2019/08/1arsenalsgatan.jpg"
+            src="sallskapet.jpg"
             alt="Sallskapet"
             className="responsive-image"
           />
