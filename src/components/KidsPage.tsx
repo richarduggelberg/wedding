@@ -8,6 +8,7 @@ const KidsPage = () => {
           padding: "20px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#fff",
+          textAlign: "center",
         }}
       >
         {/* Section for information about kids */}

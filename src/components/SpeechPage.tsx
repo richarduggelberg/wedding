@@ -8,13 +8,16 @@ const SpeechPage = () => {
           padding: "20px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#fff",
+          textAlign: "center",
         }}
       >
-        <h1 style={{ textAlign: "center" }}>Vill du hålla tal?</h1>
+        <h1 style={{ textAlign: "center", fontSize: "2.5rem" }}>
+          Vill du hålla tal?
+        </h1>
         <p>
           Om du vill hålla tal eller göra något annat skoj under bröllopet,
           vänligen skicka ett mejl till våra toastmasters Emma Wigfeldt och
-          Josefin Lindgren på :
+          Josefin Lindgren på:&nbsp;
           <a
             href="mailto:taltillrichardochemma@gmail.com"
             style={{ color: "black", textDecoration: "none" }}
@@ -23,6 +26,7 @@ const SpeechPage = () => {
           </a>
           .
         </p>
+
         <p>Vänligen anmäl tal senast sista april.</p>
       </div>
     </div>

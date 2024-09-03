@@ -8,6 +8,7 @@ const HomePage = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
+          textAlign: "center",
         }}
       >
         <h1 style={{ marginBottom: "10px", marginTop: "30px" }}>

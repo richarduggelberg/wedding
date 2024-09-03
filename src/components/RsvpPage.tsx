@@ -51,11 +51,11 @@ const RsvpPage = () => {
         }}
       >
         <h1 style={{ textAlign: "center" }}>OSA</h1>
-        <p>
-          Vi ser fram emot att fira denna speciella dag med dig! Vänligen fyll i
-          formuläret nedan för att meddela om du kan komma.
+        <p style={{ textAlign: "center" }}>
+          Hoppas ni vill vara med och fira med oss! Vänligen fyll i formuläret
+          nedan för att meddela om du kan komma.
         </p>
-        <p>
+        <p style={{ textAlign: "center" }}>
           Om formuläret inte fungerar, vänligen skicka ett mejl till{" "}
           <a
             href="mailto:richardochemma@gmail.com"
@@ -65,6 +65,9 @@ const RsvpPage = () => {
             richardochemma@gmail.com
           </a>{" "}
           med ungefär samma information som formuläret frågar om.
+        </p>
+        <p style={{ textAlign: "center" }}>
+          OSA via formuläret senast den 31 mars, men gärna tidigare.
         </p>
         <form onSubmit={handleSubmit}>
           <div style={{ marginBottom: "15px" }}>
@@ -158,7 +161,7 @@ const RsvpPage = () => {
               id="message"
               name="message"
               style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
-              placeholder="Ex. 'Redex - Cotton Eye Joe'"
+              placeholder="Ex. 'Rednex - Cotton Eye Joe'"
             ></textarea>
           </div>
           <div style={{ marginBottom: "15px" }}>
@@ -166,7 +169,7 @@ const RsvpPage = () => {
               htmlFor="message"
               style={{ display: "block", marginBottom: "5px" }}
             >
-              Meddelande (valfritt):
+              Någon annan fundering? (valfritt):
             </label>
             <textarea
               id="message"
