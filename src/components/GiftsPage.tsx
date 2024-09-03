@@ -9,10 +9,10 @@ const GiftsPage = () => {
           padding: "20px",
         }}
       >
-        {/* Section 1 */}
+        {/* Existing Sections */}
         <div
           style={{
-            maxWidth: "600px", // Ensure consistent maxWidth with other sections
+            maxWidth: "600px",
             margin: "0 auto",
             padding: "20px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
@@ -34,11 +34,10 @@ const GiftsPage = () => {
           </p>
         </div>
 
-        {/* Section 2 */}
         <div
           style={{
             maxWidth: "600px",
-            margin: "20px auto", // Added margin to ensure spacing between sections
+            margin: "20px auto",
             padding: "20px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
             backgroundColor: "#fff",
@@ -58,11 +57,10 @@ const GiftsPage = () => {
           </p>
         </div>
 
-        {/* Section 3 */}
         <div
           style={{
             maxWidth: "600px",
-            margin: "20px auto", // Added margin for consistent spacing
+            margin: "20px auto",
             padding: "20px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
             backgroundColor: "#fff",
@@ -82,15 +80,132 @@ const GiftsPage = () => {
           </p>
         </div>
 
-        {/* Section 4 */}
         <div
           style={{
             maxWidth: "600px",
-            margin: "20px auto", // Added margin for consistent spacing
+            margin: "20px auto",
             padding: "20px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
             backgroundColor: "#fff",
             fontFamily: "'Parisienne', cursive", // Parisienne font
+          }}
+        >
+          <h1 style={{ textAlign: "center" }}>Presenter</h1>
+          <p>
+            Den största gåvan är att ni vill komma och fira med oss. Om ni vill
+            ge en bröllopspresent så önskar vi oss ett bidrag till vår
+            bröllopsresa.
+          </p>
+          <p>
+            Ett eventuellt bidrag skickas till vår ena toastmaster:
+            <> Josefin Lindgren (070 424 22 17). </>
+            Detta görs i så fall tidigast den 15 maj 2025.
+          </p>
+        </div>
+
+        {/* Additional Sections with Elegant Serif Fonts */}
+        <div
+          style={{
+            maxWidth: "600px",
+            margin: "20px auto",
+            padding: "20px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#fff",
+            fontFamily: "'Playfair Display', serif", // Playfair Display font
+          }}
+        >
+          <h1 style={{ textAlign: "center" }}>Presenter</h1>
+          <p>
+            Den största gåvan är att ni vill komma och fira med oss. Om ni vill
+            ge en bröllopspresent så önskar vi oss ett bidrag till vår
+            bröllopsresa.
+          </p>
+          <p>
+            Ett eventuellt bidrag skickas till vår ena toastmaster:
+            <> Josefin Lindgren (070 424 22 17). </>
+            Detta görs i så fall tidigast den 15 maj 2025.
+          </p>
+        </div>
+
+        <div
+          style={{
+            maxWidth: "600px",
+            margin: "20px auto",
+            padding: "20px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#fff",
+            fontFamily: "'Crimson Text', serif", // Crimson Text font
+          }}
+        >
+          <h1 style={{ textAlign: "center" }}>Presenter</h1>
+          <p>
+            Den största gåvan är att ni vill komma och fira med oss. Om ni vill
+            ge en bröllopspresent så önskar vi oss ett bidrag till vår
+            bröllopsresa.
+          </p>
+          <p>
+            Ett eventuellt bidrag skickas till vår ena toastmaster:
+            <> Josefin Lindgren (070 424 22 17). </>
+            Detta görs i så fall tidigast den 15 maj 2025.
+          </p>
+        </div>
+
+        <div
+          style={{
+            maxWidth: "600px",
+            margin: "20px auto",
+            padding: "20px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#fff",
+            fontFamily: "'Merriweather', serif", // Merriweather font
+          }}
+        >
+          <h1 style={{ textAlign: "center" }}>Presenter</h1>
+          <p>
+            Den största gåvan är att ni vill komma och fira med oss. Om ni vill
+            ge en bröllopspresent så önskar vi oss ett bidrag till vår
+            bröllopsresa.
+          </p>
+          <p>
+            Ett eventuellt bidrag skickas till vår ena toastmaster:
+            <> Josefin Lindgren (070 424 22 17). </>
+            Detta görs i så fall tidigast den 15 maj 2025.
+          </p>
+        </div>
+
+        <div
+          style={{
+            maxWidth: "600px",
+            margin: "20px auto",
+            padding: "20px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#fff",
+            fontFamily: "'Lora', serif", // Lora font
+          }}
+        >
+          <h1 style={{ textAlign: "center" }}>Presenter</h1>
+          <p>
+            Den största gåvan är att ni vill komma och fira med oss. Om ni vill
+            ge en bröllopspresent så önskar vi oss ett bidrag till vår
+            bröllopsresa.
+          </p>
+          <p>
+            Ett eventuellt bidrag skickas till vår ena toastmaster:
+            <> Josefin Lindgren (070 424 22 17). </>
+            Detta görs i så fall tidigast den 15 maj 2025.
+          </p>
+        </div>
+
+        {/* New Section with Fraunces Font */}
+        <div
+          style={{
+            maxWidth: "600px",
+            margin: "20px auto",
+            padding: "20px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+            backgroundColor: "#fff",
+            fontFamily: "'Fraunces', serif", // Fraunces font
+            fontWeight: 200, // Thinner weight
           }}
         >
           <h1 style={{ textAlign: "center" }}>Presenter</h1>
