@@ -127,7 +127,7 @@ const RsvpPage = () => {
               id="allergies"
               name="allergies"
               style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
-              placeholder="Ange om du har några allergier eller speciella kostbehov."
+              placeholder="Ange om du har några allergier eller matpreferenser."
             ></textarea>
           </div>
 
@@ -145,7 +145,7 @@ const RsvpPage = () => {
               style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
             >
               <option value="wine">Jag vill gärna ha vinpaket</option>
-              <option value="nonAlcoholic">Alkoholfritt, tack</option>
+              <option value="nonAlcoholic">Alkoholfritt</option>
             </select>
           </div>
 

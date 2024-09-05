@@ -39,7 +39,7 @@ function TopNav({ title, navBarText, setPage }: Props) {
           </div>
 
           <a
-            style={{ marginLeft: "15px" }}
+            style={{ marginLeft: "15px", fontFamily: "'Great Vibes', cursive" }}
             className="navbar-brand justify-content-center"
             href="#"
             onClick={() => {
