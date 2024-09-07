@@ -9,9 +9,17 @@ const SpeechPage = () => {
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#fff",
           textAlign: "center",
+          fontFamily: "'Fraunces', serif", // Fraunces font
+          fontWeight: 200, // Thinner weight
         }}
       >
-        <h1 style={{ textAlign: "center", fontSize: "2.5rem" }}>
+        <h1
+          style={{
+            textAlign: "center",
+            fontSize: "2.5rem",
+            fontFamily: "'Great Vibes', cursive",
+          }}
+        >
           Vill du hålla tal?
         </h1>
         <p>

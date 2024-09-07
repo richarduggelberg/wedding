@@ -9,9 +9,15 @@ const MarathonPage = () => {
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#fff",
           textAlign: "center",
+          fontFamily: "'Fraunces', serif", // Fraunces font
+          fontWeight: 200, // Thinner weight
         }}
       >
-        <h1 style={{ textAlign: "center" }}>Nej</h1>
+        <h1
+          style={{ textAlign: "center", fontFamily: "'Great Vibes', cursive" }}
+        >
+          Nej
+        </h1>
         <p>
           Vi ska inte springa Stockholm Marathon och det ska inte ni heller.
         </p>

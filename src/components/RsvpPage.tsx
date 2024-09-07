@@ -48,9 +48,15 @@ const RsvpPage = () => {
           padding: "20px",
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#fff",
+          fontFamily: "'Fraunces', serif", // Fraunces font
+          fontWeight: 200, // Thinner weight
         }}
       >
-        <h1 style={{ textAlign: "center" }}>OSA</h1>
+        <h1
+          style={{ textAlign: "center", fontFamily: "'Great Vibes', cursive" }}
+        >
+          OSA
+        </h1>
         <p style={{ textAlign: "center" }}>
           Hoppas ni vill vara med och fira med oss! Vänligen fyll i formuläret
           nedan för att meddela om du kan komma.

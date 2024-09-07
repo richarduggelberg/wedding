@@ -11,9 +11,15 @@ const DressCodePage = () => {
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#fff",
           textAlign: "center",
+          fontFamily: "'Fraunces', serif", // Fraunces font
+          fontWeight: 200, // Thinner weight
         }}
       >
-        <h1 style={{ textAlign: "center" }}>Klädkod</h1>
+        <h1
+          style={{ textAlign: "center", fontFamily: "'Great Vibes', cursive" }}
+        >
+          Klädkod
+        </h1>
         <p>
           Mörk kostym (somriga färger tillåtna) och långklänning eller minst
           knälång klänning.

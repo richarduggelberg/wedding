@@ -57,7 +57,7 @@ const HomePage = () => {
             alignItems: "center",
           }}
         >
-          <p style={{ margin: "30px", color: "#555" }}>
+          <p style={{ fontSize: "20px", margin: "30px", color: "#555" }}>
             Äntligen bröllop! Vi ska gifta oss i vår och ser så mycket fram emot
             att fira med er!
           </p>

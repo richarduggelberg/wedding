@@ -9,10 +9,18 @@ const TimeAndPlacePage = () => {
           boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
           backgroundColor: "#fff",
           textAlign: "center",
+          fontFamily: "'Fraunces', serif", // Fraunces font
+          fontWeight: 200, // Thinner weight
         }}
       >
-        <h1 style={{ textAlign: "center", marginBottom: "20px" }}>
-          2025-05-31!
+        <h1
+          style={{
+            textAlign: "center",
+            marginBottom: "20px",
+            fontFamily: "'Great Vibes', cursive",
+          }}
+        >
+          2025 . 05 . 31
         </h1>
 
         {/* Section for the Church */}
@@ -23,7 +31,13 @@ const TimeAndPlacePage = () => {
             className="responsive-image"
           />
           <div>
-            <h2 style={{ display: "flex", justifyContent: "center" }}>
+            <h2
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                fontFamily: "'Great Vibes', cursive",
+              }}
+            >
               Vigsel
             </h2>
             <p>
@@ -47,7 +61,13 @@ const TimeAndPlacePage = () => {
             className="responsive-image"
           />
           <div>
-            <h2 style={{ display: "flex", justifyContent: "center" }}>
+            <h2
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                fontFamily: "'Great Vibes', cursive",
+              }}
+            >
               Promenad
             </h2>
             <p>
@@ -69,7 +89,13 @@ const TimeAndPlacePage = () => {
             className="responsive-image"
           />
           <div>
-            <h2 style={{ display: "flex", justifyContent: "center" }}>
+            <h2
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                fontFamily: "'Great Vibes', cursive",
+              }}
+            >
               Middag och fest
             </h2>
             <p>
