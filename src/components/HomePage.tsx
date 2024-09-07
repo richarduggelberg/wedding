@@ -9,13 +9,28 @@ const HomePage = () => {
           flexDirection: "column",
           alignItems: "center",
           textAlign: "center",
+          fontFamily: "'Fraunces', serif", // Fraunces font
+          fontWeight: 200, // Thinner weight
         }}
       >
-        <h1 style={{ marginBottom: "10px", marginTop: "30px" }}>
-          Vi gifter oss!
+        <p style={{ fontSize: "16px", marginTop: "30px", color: "#555" }}>
+          Välkommen på bröllop
+        </p>
+        <h1
+          style={{
+            fontFamily: "'Great Vibes', cursive",
+            marginBottom: "10px",
+            marginTop: "10px",
+            fontSize: "45px", // Further reduced size for a lighter feel
+            color: "#666", // Lighter gray color for a soft effect
+            textShadow: "0.3px 0.3px 1px rgba(0, 0, 0, 0.08)", // Softer shadow
+            opacity: 0.9, // Reduced opacity to make it appear lighter
+          }}
+        >
+          Emma och Richard
         </h1>
         <p style={{ fontSize: "16px", marginBottom: "30px", color: "#555" }}>
-          Lördag 31 Maj 2025
+          31 Maj 2025
         </p>
         <div
           style={{
@@ -42,8 +57,9 @@ const HomePage = () => {
             alignItems: "center",
           }}
         >
-          <p style={{ fontSize: "20px", margin: "30px", color: "#555" }}>
-            Vi ska gifta oss i vår och ser så mycket fram emot att fira med er!
+          <p style={{ margin: "30px", color: "#555" }}>
+            Äntligen bröllop! Vi ska gifta oss i vår och ser så mycket fram emot
+            att fira med er!
           </p>
         </div>
       </div>

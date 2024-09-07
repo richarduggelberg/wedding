@@ -8,7 +8,13 @@ interface Props {
 function TopNavList({ setPage, onNavItemClick }: Props) {
   return (
     <>
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0 m-50 d-flex justify-content-around">
+      <ul
+        className="navbar-nav me-auto mb-2 mb-lg-0 m-50 d-flex justify-content-around"
+        style={{
+          fontFamily: "'Fraunces', serif", // Fraunces font
+          fontWeight: 200, // Thinner weight
+        }}
+      >
         <TopNavListItem
           onClick={() => {
             setPage("about");

@@ -10,10 +10,24 @@ import DressCodePage from "./components/DressCodePage";
 import GiftsPage from "./components/GiftsPage";
 
 const App = () => {
-  const title = "Emma & Richard";
   const navBarText = "";
 
   const [currentPage, setCurrentPage] = useState<string>("home");
+
+  // Mapping for page titles
+  const pageTitles: { [key: string]: string } = {
+    home: " ",
+    about: "Emma & Richard",
+    rsvp: "Emma & Richard",
+    speech: "Emma & Richard",
+    dresscode: "Emma & Richard",
+    kids: "Emma & Richard",
+    marathon: "Emma & Richard",
+    gifts: "Emma & Richard",
+  };
+
+  // Dynamically set title based on current page
+  const title = pageTitles[currentPage] || "Emma & Richard"; // Default to 'Emma & Richard' if no match
 
   return (
     <>
