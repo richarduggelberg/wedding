@@ -48,7 +48,8 @@ const TimeAndPlacePage = () => {
             </p>
             <p>
               Båda i brudparet tycker om samtliga gäster och därmed gäller fri
-              sittning i kyrkan.
+              sittning i kyrkan. Första raden är däremot bara för närmsta
+              familjen.
             </p>
           </div>
         </div>

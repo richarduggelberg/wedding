@@ -1,4 +1,5 @@
-import sunsetImage from "../../public/sunset.jpg"; // Adjust the path to your image
+import kostym1Image from "../../public/kostym1.jpg"; // Adjust the path as needed
+import kostym2Image from "../../public/kostym2.jpg"; // Adjust the path as needed
 
 const DressCodePage = () => {
   return (
@@ -26,28 +27,28 @@ const DressCodePage = () => {
         </p>
         <p>Tänk på att det endast är bruden som bär vitt.</p>
 
-        {/* Image section */}
+        {/* Image section for kostym1 and kostym2, arranged vertically */}
         <div
           style={{
             display: "flex",
-            justifyContent: "space-between",
+            flexDirection: "column", // Change the layout to vertical
+            alignItems: "center", // Center align the images
             marginTop: "20px",
           }}
         >
           <img
-            src={sunsetImage}
-            alt="Dress Code Example 1"
-            style={{ width: "30%", height: "auto", borderRadius: "8px" }}
+            src={kostym1Image}
+            alt="Kostym Example 1"
+            style={{
+              width: "100%",
+              height: "auto",
+              marginBottom: "20px",
+            }}
           />
           <img
-            src={sunsetImage}
-            alt="Dress Code Example 2"
-            style={{ width: "30%", height: "auto", borderRadius: "8px" }}
-          />
-          <img
-            src={sunsetImage}
-            alt="Dress Code Example 3"
-            style={{ width: "30%", height: "auto", borderRadius: "8px" }}
+            src={kostym2Image}
+            alt="Kostym Example 2"
+            style={{ width: "100%", height: "auto" }}
           />
         </div>
       </div>

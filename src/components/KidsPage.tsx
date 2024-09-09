@@ -1,3 +1,5 @@
+import stockholmImage from "../../public/stockholm.jfif"; // Adjust the path as needed
+
 const KidsPage = () => {
   return (
     <>
@@ -34,6 +36,7 @@ const KidsPage = () => {
             är ammande spädbarn välkomna.
           </p>
         </div>
+
         {/* New Section with Fraunces Font */}
         <div
           style={{
@@ -56,11 +59,21 @@ const KidsPage = () => {
             Boende i Stockholm
           </h1>
           <p>
-            Om ni planerar att resa till Stockholm för vårt bröllop,
-            rekommenderar vi att ni bokar ert boende i god tid. Det finns många
-            fina hotell i området, och att boka i förväg hjälper er att hitta
-            det som passar bäst för er.
+            Om ni planerar att resa till Stockholm för vårt bröllop
+            rekommenderar vi att ni bokar ert boende i god tid. Hör av er till
+            oss om ni har någon fundering eller vill ha några tips.
           </p>
+
+          {/* Image of Stockholm */}
+          <img
+            src={stockholmImage}
+            alt="Stockholm"
+            style={{
+              width: "100%", // Make the image full width within the container
+              height: "auto",
+              marginTop: "20px", // Add some space between text and image
+            }}
+          />
         </div>
       </div>
     </>

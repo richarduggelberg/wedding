@@ -1,3 +1,5 @@
+import TalImage from "../../public/tal.jpg"; // Adjust the path as needed
+
 const SpeechPage = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center", padding: "20px" }}>
@@ -16,7 +18,7 @@ const SpeechPage = () => {
         <h1
           style={{
             textAlign: "center",
-            fontSize: "2.5rem",
+            fontSize: "2rem",
             fontFamily: "'Great Vibes', cursive",
           }}
         >
@@ -36,6 +38,17 @@ const SpeechPage = () => {
         </p>
 
         <p>Vänligen anmäl tal senast sista april.</p>
+
+        {/* Image at the bottom */}
+        <img
+          src={TalImage}
+          alt="Tal"
+          style={{
+            marginTop: "20px", // Adds some space above the image
+            width: "100%",
+            height: "auto", // Ensures the image maintains its aspect ratio
+          }}
+        />
       </div>
     </div>
   );
