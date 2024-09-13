@@ -101,7 +101,8 @@ const TimeAndPlacePage = () => {
             </h2>
             <p>
               Efter vigseln är det dags för middag och fest! Det blir i
-              Sällskapets lokaler på Arsenalsgatan 7. Festen pågår till 02.00.
+              Sällskapets lokaler på Arsenalsgatan 7 från och med klockan 17.00.
+              Festen pågår till 02.00.
             </p>
             <p>
               <strong>Viktigt angående festlokalen: </strong>Bilder som tas i

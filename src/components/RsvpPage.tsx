@@ -70,7 +70,7 @@ const RsvpPage = () => {
             {" "}
             richardochemma@gmail.com
           </a>{" "}
-          med ungefär samma information som formuläret frågar om.
+          med samma information som formuläret frågar om.
         </p>
         <p style={{ textAlign: "center" }}>
           OSA via formuläret senast den 31 mars, men gärna tidigare.
@@ -157,19 +157,20 @@ const RsvpPage = () => {
 
           <div style={{ marginBottom: "15px" }}>
             <label
-              htmlFor="message"
+              htmlFor="songRequest"
               style={{ display: "block", marginBottom: "5px" }}
             >
               Om den här låten spelas på dansgolvet så kommer jag att dansa
               (valfritt):
             </label>
             <textarea
-              id="message"
-              name="message"
+              id="songRequest"
+              name="songRequest"
               style={{ width: "100%", padding: "8px", boxSizing: "border-box" }}
-              placeholder="Ex. 'Rednex - Cotton Eye Joe'"
+              placeholder="Ex. 'Levels - Avicii'"
             ></textarea>
           </div>
+
           <div style={{ marginBottom: "15px" }}>
             <label
               htmlFor="message"

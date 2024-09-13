@@ -1,5 +1,4 @@
-import kostym1Image from "../../public/kostym1.jpg"; // Adjust the path as needed
-import kostym2Image from "../../public/kostym2.jpg"; // Adjust the path as needed
+import kostym3Image from "../../public/kostym3.jpg"; // Adjust the path as needed
 
 const DressCodePage = () => {
   return (
@@ -37,18 +36,13 @@ const DressCodePage = () => {
           }}
         >
           <img
-            src={kostym1Image}
+            src={kostym3Image}
             alt="Kostym Example 1"
             style={{
               width: "100%",
               height: "auto",
               marginBottom: "20px",
             }}
-          />
-          <img
-            src={kostym2Image}
-            alt="Kostym Example 2"
-            style={{ width: "100%", height: "auto" }}
           />
         </div>
       </div>

@@ -2,7 +2,7 @@
   "name": "wedding",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://richarduggelberg.github.io/wedding",
+  "homepage": "https://emmaochrichard.wedding",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
