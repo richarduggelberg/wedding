@@ -20,10 +20,7 @@ const DressCodePage = () => {
         >
           Klädkod
         </h1>
-        <p>
-          Mörk kostym (somriga färger tillåtna) och långklänning eller minst
-          knälång klänning.
-        </p>
+        <p>Kostym och långklänning eller minst knälång klänning.</p>
         <p>Tänk på att det endast är bruden som bär vitt.</p>
 
         {/* Image section for kostym1 and kostym2, arranged vertically */}
