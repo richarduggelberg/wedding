@@ -1,1 +1,1 @@
-[SITE](https://richarduggelberg.github.io/wedding/)
+wedding
