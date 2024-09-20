@@ -29,10 +29,10 @@ const SpeechPage = () => {
           vänligen skicka ett mejl till våra toastmasters Emma Wigfeldt och
           Josefin Lindgren på:&nbsp;
           <a
-            href="mailto:taltillrichardochemma@gmail.com"
+            href="mailto:taltillemmaochrichard@outlook.com"
             style={{ color: "black", textDecoration: "none" }}
           >
-            taltillrichardochemma@gmail.com
+            taltillemmaochrichard@outlook.com
           </a>
           .
         </p>
