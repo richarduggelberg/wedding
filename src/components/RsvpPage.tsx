@@ -64,11 +64,11 @@ const RsvpPage = () => {
         <p style={{ textAlign: "center" }}>
           Om formuläret inte fungerar, vänligen skicka ett mejl till{" "}
           <a
-            href="mailto:richardochemma@gmail.com"
+            href="mailto:emmaochrichard@outlook.com"
             style={{ color: "black", textDecoration: "none" }}
           >
             {" "}
-            richardochemma@gmail.com
+            emmaochrichard@outlook.com
           </a>{" "}
           med samma information som formuläret frågar om.
         </p>
