@@ -57,7 +57,7 @@ const TimeAndPlacePage = () => {
         {/* Section for the Walk (Vandring) */}
         <div className="responsive-container">
           <img
-            src="vandring.png"
+            src="marathon2.png"
             alt="Vandring between Church and Party Venue"
             className="responsive-image"
           />
@@ -71,13 +71,26 @@ const TimeAndPlacePage = () => {
             >
               Promenad
             </h2>
+            <div
+              style={{
+                backgroundColor: "#fff3cd",
+                borderLeft: "6px solid #ffc107",
+                padding: "10px",
+                marginBottom: "10px",
+                fontWeight: "bold",
+              }}
+            >
+              <strong>UPPDATERING:</strong> På grund av ändrad rutt för
+              Stockholm Marathon behöver vi nu korsa löparbanan på väg till
+              festen. Det finns ett övergångsställe vid Nybroplan där vi kan
+              slussas över. Se uppdaterad bild.
+            </div>
             <p>
               Efter vigseln tar vi en kortare promenad från Hedvig Eleonora
               kyrka till Sällskapets lokaler.
             </p>
             <p>
-              Denna promenad kommer inte korsa löparbanan för Stockholm
-              Marathon.
+              Tidigare skulle vi undvika löparbanan, men nu måste vi korsa den.
             </p>
           </div>
         </div>
@@ -101,8 +114,8 @@ const TimeAndPlacePage = () => {
             </h2>
             <p>
               Efter vigseln är det dags för middag och fest! Det blir i
-              Sällskapets lokaler på Arsenalsgatan 7 från och med klockan 17.00.
-              Festen pågår till 02.00.
+              Sällskapets lokaler på Arsenalsgatan 7 från och med klockan 16.30.
+              Middagen börjar vid 17.30. Festen pågår till 02.00.
             </p>
             <p>
               <strong>Viktigt angående festlokalen: </strong>Bilder som tas i
